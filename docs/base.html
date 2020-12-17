@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Base de datos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Página web de base de datos</h1>
-        <p>Aqui aprenderemos mucho sobre como almacenar nuestra información, esencial para todos los proyectos que hagamos!!!</p>
-        <nav>
+        <h1>Base de datos</h1>
+        <nav id="navegacion">
             <a href="index.html">Principal</a>
             <a href="entornos.html">Entornos de desarrollo</a>
             <a href="programacion.html">Programación</a>
             <a href="lenguaje.html">Lenguaje de marcas</a>
-            <a href="base.html">Base de datos</a>
-            <a href="sistemas">Sistemas informáticos</a>
+            <a class="selected-nav" href="base.html">Base de datos</a>
+            <a href="sistemas.html">Sistemas informáticos</a>
         </nav>
     </header>
+
+    <div  class="all-page">
+        <section class="description">
+            <p>Aqui aprenderemos mucho sobre como almacenar nuestra información, esencial para todos los proyectos que hagamos!!!</p>
+            <img src="src/img/base-description.jpg" alt="">       
+        </section>
+    </div>
+
+    <script src="navScroll.js"></script>
+
+
 </body>
 </html>
